@@ -25,9 +25,9 @@ Scanner sc = new Scanner(System.in);
     		   temp=temp/10;
     	   }
     	   if(no==rev){
-    		   System.out.println(no+"is palidrome no.");
+    		   System.out.println(no+" is palidrome no.");
     	   }else {
-    		   System.out.println(no+"is not a palidrome no.");
+    		   System.out.println(no+" is not a palidrome no.");
     	   }
 
       }
@@ -41,7 +41,7 @@ Scanner sc = new Scanner(System.in);
            int x=sc.nextInt();
            for(int i=0;i<=x;i++) {
         	   for(int j=x;j>=i;j--) {
-        		   System.out.println("*");
+        		   System.out.print("*");
         	   }
         	   System.out.println();
            }
@@ -61,9 +61,9 @@ Scanner sc = new Scanner(System.in);
         		}
         	}
             if(temp==0) {
-            	System.out.println(x+"It is prime no.");
+            	System.out.println(x+" It is prime no.");
             }else {
-            	System.out.println(x+"It is composite no.");
+            	System.out.println(x+" It is composite no.");
             }
         }
 
